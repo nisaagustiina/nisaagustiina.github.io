@@ -2,7 +2,7 @@
 
 $receiving_email_address = 'nisaagustiina@gmail.com';
 
-if(file_exists($php_email_form = '.../assets/vendor/php-email-form/php-email-form.php')){
+if(file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')){
     include($php_email_form);
 }else{
     die('Failed to connect!');
